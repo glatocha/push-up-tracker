@@ -1,0 +1,10 @@
+{
+	"appId": "com.glatocha.push_up_tracker",
+	"appName": "PushUp Tracker",
+	"bundledWebRuntime": false,
+	"npmClient": "npm",
+	"webDir": "www",
+	"server": {
+		"url": "http://192.168.48.6:8081"
+	}
+}

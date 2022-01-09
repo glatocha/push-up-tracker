@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">PushUp Tracker</string>
+    <string name="title_activity_main">PushUp Tracker</string>
+    <string name="package_name">com.glatocha.push_up_tracker</string>
+    <string name="custom_url_scheme">com.glatocha.push_up_tracker</string>
+</resources>

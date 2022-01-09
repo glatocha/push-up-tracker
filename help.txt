@@ -1,0 +1,38 @@
+Android version change is in:
+src-capacitor/android/app/build.gradle
+
+QUASAR:
+quasar dev - start the development
+quasar dev -m capacitor -T android - start the android capacitor app
+quasar build -m capacitor -T android - build for production
+quasar build -m capacitor -T android --ide -just compile do not generate APK, opens Android studio
+
+
+ICON GENERATOR
+icongenie g -i src/assets/icon.png --skip-trim - generates assets for all packages
+
+
+
+
+
+------------------------------------------------------------------------------
+
+ionic serve - to start app in local server
+ionic build - to compile the project
+
+
+CAPACITOR
+npm install @capacitor/android - to install capacitor android to the project
+npx cap add android - to add android version to the project
+
+npx cap sync android - to update with lates build
+npx cap open android - to open android studio
+
+
+ANDROID
+to build and test the app - Build->Rebuild project, then green play button (Android emulator need to be configured)
+
+to make and apk file:
+1. change build variant to Release
+2. Build->Generate Signed APK
+3. 

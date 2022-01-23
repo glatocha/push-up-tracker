@@ -3,6 +3,7 @@
     <Header text="DAILY LIST" />
     <days-list :progressData="progressData"> </days-list>
   </q-page>
+  <div id="endOfPage"></div>
 </template>
 
 <script>

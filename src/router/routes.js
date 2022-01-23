@@ -18,6 +18,7 @@ const routes = [
       },
       {
         path: '/list',
+        meta: { scrollToBottom: true },
         component: () => import('pages/List.vue')
       },
       {

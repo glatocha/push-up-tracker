@@ -21,8 +21,8 @@
 </template>
 
 <script>
-import Utilities from "../utilities.js";
-import EditDayDialog from "../components/EditDayDialog.vue";
+import Utilities from "../../utilities.js";
+import EditDayDialog from "../EditDayDialog.vue";
 import { ref } from "vue";
 
 export default {

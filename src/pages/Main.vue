@@ -1,6 +1,6 @@
 <template>
   <q-page>
-    <Header text="PUSH-UP TRACKER" />
+    <Header>PUSH-UP TRACKER</Header>
     <total-card :number="totalCount" />
     <daily-card :dayNo="dayNo" today="true" />
     <statistics-card />
@@ -49,4 +49,3 @@ export default defineComponent({
   },
 });
 </script>
-

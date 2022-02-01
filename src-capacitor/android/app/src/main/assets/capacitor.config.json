@@ -3,8 +3,5 @@
 	"appName": "PushUp Tracker",
 	"bundledWebRuntime": false,
 	"npmClient": "npm",
-	"webDir": "www",
-	"server": {
-		"url": "http://172.16.130.142:8080"
-	}
+	"webDir": "www"
 }

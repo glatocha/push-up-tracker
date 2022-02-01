@@ -16,13 +16,13 @@ Stable version for google play
 # #0.8
 
 - auto scrolling in list view - done
-- months, weeks and days in the list?
+- months, weeks and days in the list - done
 
 ---
 
 # #0.7
 
-- settings to components
+- settings to components - done
 - establish Git and GitHub repo - done
 - android app icon size - done
 - fix android app versioning - done

@@ -1,11 +1,6 @@
 <template>
   <q-page>
-    <q-header elevated>
-      <q-toolbar>
-        <q-toolbar-title> GRAPHS </q-toolbar-title>
-      </q-toolbar>
-    </q-header>
-
+    <Header>GRAPHS</Header>
     <apex-line-chart />
     <apex-bar-chart />
     <apex-semi-circle />
@@ -16,6 +11,7 @@
 import ApexBarChart from "../components/ApexBarChart.vue";
 import ApexLineChart from "../components/ApexLineChart.vue";
 import ApexSemiCircle from "../components/ApexSemiCircle.vue";
+import Header from "../components/Header.vue";
 
 export default {
   name: "Main",
@@ -23,6 +19,7 @@ export default {
     ApexLineChart,
     ApexBarChart,
     ApexSemiCircle,
+    Header,
   },
 };
 </script>

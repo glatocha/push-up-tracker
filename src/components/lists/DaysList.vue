@@ -2,8 +2,8 @@
   <q-list bordered separator>
     <day-list-item
       v-for="(day, index) in progressData"
-      :key="this.$store.getters.dayData(index + 1).id"
-      :day="this.$store.getters.dayData(index + 1)"
+      :key="getDayItem(index).id"
+      :day="getDayItem(index)"
     ></day-list-item>
   </q-list>
 </template>
@@ -16,6 +16,11 @@ export default {
   props: ["progressData"],
   components: {
     DayListItem,
+  },
+  methods: {
+    getDayItem(index) {
+      return this.$store.getters.dayData(index + 1);
+    },
   },
 };
 </script>

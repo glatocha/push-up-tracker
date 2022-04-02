@@ -8,7 +8,7 @@ Stable version for google play
 
 # #0.9
 
-- Add about page
+- Add about page - done
 - Test on Samsung with wrong settings etc., settings change, erasing data etc.
 
 ---
@@ -32,3 +32,13 @@ Stable version for google play
 # #0.6
 
 - NOW 12.31.2021
+
+---
+
+links to markdown documents:
+
+https://www.markdownguide.org/cheat-sheet/
+
+https://gist.github.com/rxaviers/7360908
+
+https://emojipedia.org/

@@ -7,6 +7,13 @@
     <delete-progress
       @delete-progress-data="deleteProgressData"
     ></delete-progress>
+
+    <q-space />
+    <q-card class="q-ma-sm fixed-bottom" style="margin-bottom: 56px">
+      <q-card-section>
+        <q-btn to="/about" color="primary" class="full-width" label="About" />
+      </q-card-section>
+    </q-card>
   </q-page>
 </template>
 
